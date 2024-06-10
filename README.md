@@ -1,6 +1,7 @@
 # Server Set Up
 
-## Automatic set up
+## Requirements
+### Automatic set up
 
 ```bash
 #!/bin/bash
@@ -26,7 +27,7 @@ fi
 
 # Use pip to install the required libraries
 echo "Installing required libraries: scikit-learn, pandas, matplotlib, jupyter torch torch_geometric..."
-pip3 install scikit-learn pandas matplotlib jupyter torch torch_geometric
+pip3 install scikit-learn pandas matplotlib jupyter torch torch_geometric huggingface_hub
 
 
 # Create a symbolic link for python to python3 if it doesn't exist
@@ -43,6 +44,35 @@ echo "alias ts='tmux new -s'" >> ~/.bashrc && source ~/.bashrc
 
 # Append the alias 'tt' to the end of the .bashrc file
 echo "alias tt='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
+```
+
+## Huggingface
+
+### Download dataset
+
+```python
+from huggingface_hub import hf_hub_download
+
+# Download the file
+file_path = hf_hub_download(repo_id="Zixing-GOU/TEG-DB", subfolder="Goodreads-History/raw", filename="goodreads_history_graph1.pkl.zip", repo_type="dataset", local_dir=".")
+
+print(f"File downloaded to {file_path}")
+```
+
+### Upload dataset
+
+```python
+from huggingface_hub import HfApi
+
+api = HfApi()
+
+api.upload_file(
+    path_or_fileobj="hisotry_gpt_edges_0.pkl",
+    path_in_repo="./hisotry_gpt_edges_0.pkl",
+    repo_id="ZhuofengLi/TEG-Dataset",
+    repo_type="dataset",
+    token="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"
+)
 ```
 
 
