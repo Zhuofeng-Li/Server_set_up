@@ -1,7 +1,19 @@
 # Server Set Up
 
 ## Requirements
-### Automatic set up
+### Mini conda Env setup
+
+```bash
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+~/miniconda3/bin/conda init bash
+~/miniconda3/bin/conda init zsh
+```
+
+
+### Packages setup
 
 ```bash
 #!/bin/bash
@@ -48,7 +60,7 @@ echo "alias ts='tmux new -s'" >> ~/.bashrc && source ~/.bashrc
 echo "alias tt='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
 ```
 
-### set up 
+### Additional set up 
 
 **Nvidia: **Check https://docs.nvidia.com/cuda/cuda-installation-guide-linux/
 
