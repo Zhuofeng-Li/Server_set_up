@@ -6,6 +6,8 @@
 ```bash
 #!/bin/bash
 
+sudo apt-get update
+
 # Check and install Python
 if ! command -v python3 &> /dev/null
 then
@@ -45,6 +47,16 @@ echo "alias ts='tmux new -s'" >> ~/.bashrc && source ~/.bashrc
 # Append the alias 'tt' to the end of the .bashrc file
 echo "alias tt='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
 ```
+
+### set up 
+
+**Nvidia: **Check https://docs.nvidia.com/cuda/cuda-installation-guide-linux/
+
+**torch: ** Check https://pytorch.org/get-started/locally/
+
+**PyG: **Check https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
+
+
 
 ## Huggingface
 
