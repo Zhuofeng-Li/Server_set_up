@@ -61,8 +61,18 @@ echo "alias tt='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
 
 ### Vscode extensions setup
 ```bash
-wget https://github.com/Zhuofeng-Li/Server_set_up/blob/main/vscode_extensions.txt
-cat vscode_extensions.txt | xargs -n 1 code --install-extension
+#!/bin/bash
+
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
+code --install-extension ms-python.debugpy
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension ms-toolsai.vscode-jupyter-cell-tags
+code --install-extension ms-toolsai.vscode-jupyter-slideshow
 ```
 ### Additional set up 
 
