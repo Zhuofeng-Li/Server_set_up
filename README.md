@@ -60,6 +60,10 @@ echo "alias ts='tmux new -s'" >> ~/.bashrc && source ~/.bashrc
 echo "alias tt='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
 ```
 
+### Vscode extensions setup
+```bash
+
+```
 ### Additional set up 
 
 **Nvidia: **Check https://docs.nvidia.com/cuda/cuda-installation-guide-linux/

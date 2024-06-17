@@ -1,0 +1,11 @@
+Extensions installed on SSH: zhuofeng-tegdb.us-central1-a.zhaoliangvaio1987:
+github.copilot
+github.copilot-chat
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
