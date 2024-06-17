@@ -12,7 +12,6 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init zsh
 ```
 
-
 ### Packages setup
 
 ```bash
@@ -62,7 +61,8 @@ echo "alias tt='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
 
 ### Vscode extensions setup
 ```bash
-
+wget https://github.com/Zhuofeng-Li/Server_set_up/blob/main/vscode_extensions.txt
+cat vscode_extensions.txt | xargs -n 1 code --install-extension
 ```
 ### Additional set up 
 
