@@ -76,11 +76,11 @@ code --install-extension ms-toolsai.vscode-jupyter-slideshow
 ```
 ### Additional set up 
 
-**Nvidia: **Check https://docs.nvidia.com/cuda/cuda-installation-guide-linux/
+**Nvidia:** Check https://docs.nvidia.com/cuda/cuda-installation-guide-linux/
 
-**torch: ** Check https://pytorch.org/get-started/locally/
+**torch:** Check https://pytorch.org/get-started/locally/
 
-**PyG: **Check https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
+**PyG:** Check https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
 
 
 
@@ -95,6 +95,10 @@ from huggingface_hub import hf_hub_download
 file_path = hf_hub_download(repo_id="Zixing-GOU/TEG-DB", subfolder="Goodreads-History/raw", filename="goodreads_history_graph1.pkl.zip", repo_type="dataset", local_dir=".")
 
 print(f"File downloaded to {file_path}")
+```
+
+```bash
+huggingface-cli download repo_id filename subfolder repo_type
 ```
 
 ### Upload dataset
