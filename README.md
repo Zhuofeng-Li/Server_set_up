@@ -1,6 +1,9 @@
 # Server Set Up
 
 ## Requirements
+### Cuda 
+**Nvidia:** Check [https://docs.nvidia.com/cuda/cuda-installation-guide-linux/](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
+
 ### Mini conda Env setup
 
 ```bash
@@ -75,8 +78,6 @@ code --install-extension ms-toolsai.vscode-jupyter-cell-tags
 code --install-extension ms-toolsai.vscode-jupyter-slideshow
 ```
 ### Additional set up 
-
-**Nvidia:** Check https://docs.nvidia.com/cuda/cuda-installation-guide-linux/
 
 **torch:** Check https://pytorch.org/get-started/locally/
 
