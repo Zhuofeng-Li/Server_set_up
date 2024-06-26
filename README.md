@@ -43,7 +43,7 @@ fi
 
 # Use pip to install the required libraries
 echo "Installing required libraries: numpy scikit-learn, pandas, matplotlib, jupyter torch torch_geometric..."
-pip3 install scikit-learn numpy pandas matplotlib jupyter torch torch_geometric huggingface_hub
+pip3 install scikit-learn numpy pandas matplotlib jupyter torch torch_geometric huggingface_hub transformers
 
 
 # Create a symbolic link for python to python3 if it doesn't exist
