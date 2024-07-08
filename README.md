@@ -56,10 +56,13 @@ else
 fi
 
 # Append the alias 'ts' to the end of the .bashrc file
-echo "alias ts='tmux new -s'" >> ~/.bashrc && source ~/.bashrc
+echo "alias tn='tmux new -s'" >> ~/.bashrc && source ~/.bashrc
 
 # Append the alias 'tt' to the end of the .bashrc file
 echo "alias tt='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
+
+# Append the alias 'ns' to the end of the .bashrc file
+echo "alias tt='nvidia-smi'" >> ~/.bashrc && source ~/.bashrc
 ```
 
 ### Vscode extensions setup
