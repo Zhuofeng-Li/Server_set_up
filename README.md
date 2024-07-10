@@ -89,7 +89,10 @@ code --install-extension ms-toolsai.vscode-jupyter-slideshow
 
 
 ## Huggingface
-
+### Login
+```python
+huggingface-cli login
+```
 ### Download dataset
 
 ```python
