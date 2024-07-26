@@ -63,6 +63,8 @@ echo "alias tt='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
 
 # Append the alias 'ns' to the end of the .bashrc file
 echo "alias tt='nvidia-smi'" >> ~/.bashrc && source ~/.bashrc
+
+echo "alias ca='conda activate'" >> ~/.bashrc && source ~/.bashrc
 ```
 
 ### Vscode extensions setup
