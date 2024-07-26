@@ -59,10 +59,10 @@ fi
 echo "alias tn='tmux new -s'" >> ~/.bashrc && source ~/.bashrc
 
 # Append the alias 'tt' to the end of the .bashrc file
-echo "alias tt='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
+echo "alias ta='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
 
 # Append the alias 'ns' to the end of the .bashrc file
-echo "alias tt='nvidia-smi'" >> ~/.bashrc && source ~/.bashrc
+echo "alias ns='nvidia-smi'" >> ~/.bashrc && source ~/.bashrc
 
 echo "alias ca='conda activate'" >> ~/.bashrc && source ~/.bashrc
 ```
