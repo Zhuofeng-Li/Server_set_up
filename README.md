@@ -88,7 +88,11 @@ code --install-extension ms-toolsai.vscode-jupyter-slideshow
 
 **PyG:** Check https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
 
-
+### Useful tips
++ **delete all GPU processes:**
+```python
+lsof /dev/nvidia* | awk '{print $2}' | xargs -I {} kill {}
+```
 
 ## Huggingface
 ### Login
