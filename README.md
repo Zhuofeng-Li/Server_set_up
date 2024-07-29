@@ -81,6 +81,7 @@ code --install-extension ms-toolsai.jupyter-keymap
 code --install-extension ms-toolsai.jupyter-renderers
 code --install-extension ms-toolsai.vscode-jupyter-cell-tags
 code --install-extension ms-toolsai.vscode-jupyter-slideshow
+code --install-extension  gruntfuggly.todo-tree
 ```
 ### Additional set up 
 
