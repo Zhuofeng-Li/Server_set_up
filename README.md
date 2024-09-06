@@ -131,4 +131,9 @@ api.upload_file(
 )
 ```
 
+### Google Cloud Setup
+```bash
+gcloud compute config-ssh
+```
+
 
