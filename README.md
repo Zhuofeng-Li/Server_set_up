@@ -65,6 +65,13 @@ echo "alias ta='tmux attach -t'" >> ~/.bashrc && source ~/.bashrc
 echo "alias ns='nvidia-smi'" >> ~/.bashrc && source ~/.bashrc
 
 echo "alias ca='conda activate'" >> ~/.bashrc && source ~/.bashrc
+
+echo "alias ga='git add'" >> ~/.bashrc && source ~/.bashrc
+
+echo "alias gc='git commit'" >> ~/.bashrc && source ~/.bashrc
+
+echo "alias gp='git push'" >> ~/.bashrc && source ~/.bashrc
+
 ```
 
 ### Vscode extensions setup
