@@ -109,20 +109,17 @@ lsof /dev/nvidia* | awk '{print $2}' | xargs -I {} kill {}
 huggingface-cli login
 ```
 ### Download dataset
-
+**Download the file:**
 ```python
 from huggingface_hub import hf_hub_download
-
-# Download the file
 file_path = hf_hub_download(repo_id="Zixing-GOU/TEG-DB", subfolder="Goodreads-History/raw", filename="goodreads_history_graph1.pkl.zip", repo_type="dataset", local_dir=".")
-
-print(f"File downloaded to {file_path}")
 ```
 
-```bash
-huggingface-cli download repo_id filename subfolder repo_type
+**Download the dir:**
+```python
+from huggingface_hub import snapshot_download
+snapshot_download(repo_id="ZhuofengLi/TEG-Datasets", repo_type="dataset", local_dir="../Dataset", token="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")
 ```
-
 ### Upload dataset
 
 ```python
