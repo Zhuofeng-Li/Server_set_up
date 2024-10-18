@@ -82,6 +82,7 @@ code --install-extension ms-toolsai.jupyter-renderers
 code --install-extension ms-toolsai.vscode-jupyter-cell-tags
 code --install-extension ms-toolsai.vscode-jupyter-slideshow
 code --install-extension  gruntfuggly.todo-tree
+code --install-extension  ms-python.black-formatter
 ```
 ### Additional set up 
 
