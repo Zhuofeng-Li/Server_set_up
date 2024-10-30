@@ -144,6 +144,7 @@ gcloud compute config-ssh
 ### Setup the local and remote connection
 ```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+cat ～/.ssh/id_rsa.pub
 # copy id_rsa.pub to the remote `~/.ssh/authorized_keys`
 ```
 
