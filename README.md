@@ -55,6 +55,11 @@ else
     echo "python is already linked to $(python --version)"
 fi
 
+# install fish shell
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt update
+sudo apt install fish
+
 # Append the alias 'ts' to the end of the .bashrc file
 echo "alias tn='tmux new -s'" >> ~/.bashrc && source ~/.bashrc
 
