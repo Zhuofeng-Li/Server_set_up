@@ -77,6 +77,8 @@ echo "alias gc='git commit'" >> ~/.bashrc && source ~/.bashrc
 
 echo "alias gp='git push'" >> ~/.bashrc && source ~/.bashrc
 
+echo "alias gl='git log'" >> ~/.bashrc && source ~/.bashrc
+
 ```
 
 ### Vscode extensions setup
