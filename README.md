@@ -75,9 +75,7 @@ echo "alias ga='git add'" >> ~/.bashrc && source ~/.bashrc
 
 echo "alias gc='git commit'" >> ~/.bashrc && source ~/.bashrc
 
-echo "alias gp='git push'" >> ~/.bashrc && source ~/.bashrc
-
-echo "alias gl='git log'" >> ~/.bashrc && source ~/.bashrc
+echo "alias go='git log'" >> ~/.bashrc && source ~/.bashrc
 
 ```
 
