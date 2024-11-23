@@ -141,6 +141,14 @@ api.upload_file(
 )
 ```
 
+### Download dataset
+
+```python
+from huggingface_hub import snapshot_download
+
+snapshot_download(repo_id="ZhuofengLi/TEG-Datasets", repo_type="dataset", local_dir="../Dataset")
+```
+
 ## Cloud Setup
 ### Google Cloud Start
 ```bash
