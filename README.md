@@ -42,8 +42,13 @@ else
 fi
 
 # Use pip to install the required libraries
-echo "Installing required libraries: numpy scikit-learn, pandas, matplotlib, jupyter torch torch_geometric..."
-pip3 install scikit-learn numpy pandas matplotlib jupyter torch torch_geometric huggingface_hub transformers pandas datasets
+echo "Installing required libraries: numpy scikit-learn, pandas, matplotlib, jupyter torch..."
+# ML package 
+pip3 install scikit-learn numpy pandas matplotlib jupyter
+# DL package
+pip3 install torch transformers datasets accelerate evaluate
+# Log
+pip2 install tensorboard wandb 
 
 
 # Create a symbolic link for python to python3 if it doesn't exist
