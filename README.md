@@ -15,6 +15,12 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init zsh
 ```
 
+### Mini conda Env create
+```bash
+conda create --name NAME
+conda activate NAME
+```
+
 ### Packages setup
 
 ```bash
