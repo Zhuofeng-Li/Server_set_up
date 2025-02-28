@@ -26,6 +26,8 @@ conda activate NAME
 ```bash
 #!/bin/bash
 
+set -x  # 开启调试模式
+
 sudo apt-get update
 
 # Check and install Python
