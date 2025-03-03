@@ -120,6 +120,15 @@ code --install-extension  ms-python.black-formatter
 ```python
 lsof /dev/nvidia* | awk '{print $2}' | xargs -I {} kill {}
 ```
+## pip
+### Export dependencies
+```bash
+pip freeze > requirements.txt
+```
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
 ## Huggingface
 ### Upload dataset
