@@ -54,7 +54,8 @@ echo "Installing required libraries: numpy scikit-learn, pandas, matplotlib, jup
 # ML package 
 pip install scikit-learn numpy pandas matplotlib jupyter
 # DL package
-pip3 install torch transformers datasets accelerate evaluate
+# pip3 install torch transformers datasets accelerate evaluate
+pip install vllm
 # Log
 pip install tensorboard wandb 
 
