@@ -9,5 +9,5 @@ curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
 ngrok config add-authtoken 
 
 # vllm 
-vllm serve 
+vllm serve --trust-remote-code  OpenResearcher/OpenResearcher-30B-A3B
   
