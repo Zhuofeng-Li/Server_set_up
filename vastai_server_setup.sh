@@ -20,4 +20,4 @@ export NVM_DIR="$HOME/.nvm"
 nvm install 18
 npm install -g @anthropic-ai/claude-code
 # claude code settings
-git push https://github.com/Zhuofeng-Li/claude-code-settings && mkdir -p ~/.claude && rsync -a --exclude='.git' ./ ~/.claude/
+git clone https://github.com/Zhuofeng-Li/claude-code-settings && mkdir -p ~/.claude && rsync -a --exclude='.git' ./claude-code-settings/ ~/.claude/
