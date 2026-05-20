@@ -19,5 +19,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 nvm install 18
 npm install -g @anthropic-ai/claude-code
+npm i -g @openai/codex
 # claude code settings
 git clone https://github.com/Zhuofeng-Li/claude-code-settings && mkdir -p ~/.claude && rsync -a --exclude='.git' ./claude-code-settings/ ~/.claude/
