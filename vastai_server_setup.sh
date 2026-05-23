@@ -22,3 +22,4 @@ npm install -g @anthropic-ai/claude-code
 npm i -g @openai/codex
 # claude code settings
 git clone https://github.com/Zhuofeng-Li/claude-code-settings && mkdir -p ~/.claude && rsync -a --exclude='.git' ./claude-code-settings/ ~/.claude/
+# config ~/.bashrc, ~/.zshrc API key 
